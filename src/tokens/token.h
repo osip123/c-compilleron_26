@@ -6,6 +6,8 @@
 #define C__COMPILLERON_26_TOKEN_H
 
 #include "./token_types.cpp"
+//#include "check_types.h"
+
 
 #include <string>
 #include <iostream>
@@ -15,6 +17,8 @@ class token {
 public:
     token_type type;
     std::string lexeme;
+//private:
+//    check_types checker;
 
 public:
     explicit token(const std::string& lexeme);

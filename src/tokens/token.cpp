@@ -5,6 +5,10 @@
 #include "token.h"
 #include "./token_types.cpp"
 
+#include "cheker.cpp"
+
+//#include "check_types.h"
+
 #include <string>
 #include <iostream>
 
@@ -183,22 +187,23 @@ token_type token::which_token_type(const std::string &lexeme) {
         return token_type::PREPROCESSOR_DIRECTIVE;
 
 
-//    if (is_integer(lexeme))
-//        return token_type::INTEGER_CONST;
-//
-//    if (is_double(lexeme))
-//        return token_type::DOUBLE_CONST;
-//
-//    if (is_string(lexeme))
-//        return token_type::STRING_CONST;
-//
-//    if (is_char(lexeme))
-//        return token_type::CHAR_CONST;
+    if (checker::is_integer(lexeme))
+        return token_type::INTEGER_CONST;
+
+    if (checker::is_double(lexeme))
+        return token_type::DOUBLE_CONST;
+
+    if (checker::is_string(lexeme))
+        return token_type::STRING_CONST;
+
+    if (checker::is_char(lexeme))
+        return token_type::CHAR_CONST;
 
 
     return token_type::IDENTIFIER;
 }
 
 token::token(const std::string &lexeme) {
-
+    this->lexeme = lexeme;
+    this->type = which_token_type(lexeme);
 }
