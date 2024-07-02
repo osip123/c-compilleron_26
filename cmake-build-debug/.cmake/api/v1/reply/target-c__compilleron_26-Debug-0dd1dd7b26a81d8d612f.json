@@ -57,7 +57,8 @@
 				3,
 				4,
 				6,
-				7
+				7,
+				9
 			]
 		}
 	],
@@ -99,7 +100,8 @@
 				3,
 				4,
 				6,
-				7
+				7,
+				9
 			]
 		},
 		{
@@ -108,7 +110,8 @@
 			[
 				2,
 				5,
-				8
+				8,
+				10
 			]
 		}
 	],
@@ -163,6 +166,17 @@
 		{
 			"backtrace" : 1,
 			"path" : "src/err/err.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/tokens/converter/token_to_str.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/tokens/converter/token_to_str.h",
 			"sourceGroupIndex" : 1
 		}
 	],

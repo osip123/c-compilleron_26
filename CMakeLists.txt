@@ -15,4 +15,6 @@ add_executable(c__compilleron_26 main.cpp
         src/tokens/cheker.cpp
         src/err/err.cpp
         src/err/err.h
+        src/tokens/converter/token_to_str.cpp
+        src/tokens/converter/token_to_str.h
 )

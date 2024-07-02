@@ -207,3 +207,9 @@ token::token(const std::string &lexeme) {
     this->lexeme = lexeme;
     this->type = which_token_type(lexeme);
 }
+
+std::string token::token_type_to_str(token_type input) {
+    switch (input) {
+        
+    }
+}

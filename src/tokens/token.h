@@ -23,6 +23,7 @@ public:
 public:
     explicit token(const std::string& lexeme);
     static token_type which_token_type(const std::string& lexeme);
+    static std::string token_type_to_str(token_type input);
 };
 
 
