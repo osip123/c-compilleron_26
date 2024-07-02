@@ -12,6 +12,11 @@
 #include <string>
 #include <iostream>
 
+token::token(const std::string &lexeme) {
+    this->lexeme = lexeme;
+    this->type = which_token_type(lexeme);
+}
+
 token_type token::which_token_type(const std::string &lexeme) {
     if (lexeme == "const")
         return token_type::CONST;
@@ -203,13 +208,5 @@ token_type token::which_token_type(const std::string &lexeme) {
     return token_type::IDENTIFIER;
 }
 
-token::token(const std::string &lexeme) {
-    this->lexeme = lexeme;
-    this->type = which_token_type(lexeme);
-}
 
-std::string token::token_type_to_str(token_type input) {
-    switch (input) {
-        
-    }
-}
+

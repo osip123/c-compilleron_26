@@ -6,6 +6,7 @@
 #define C__COMPILLERON_26_TOKEN_H
 
 #include "./token_types.cpp"
+#include "converter/token_to_str.h"
 //#include "check_types.h"
 
 
@@ -14,6 +15,8 @@
 
 
 class token {
+private:
+    token_to_str convrert;
 public:
     token_type type;
     std::string lexeme;
@@ -23,7 +26,7 @@ public:
 public:
     explicit token(const std::string& lexeme);
     static token_type which_token_type(const std::string& lexeme);
-    static std::string token_type_to_str(token_type input);
+//    static std::string token_type_to_str(token_type input);
 };
 
 

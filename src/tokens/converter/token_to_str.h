@@ -9,7 +9,10 @@
 #include "../token_types.cpp"
 
 class token_to_str {
-    
+public:
+//    token_type input;
+public:
+    static std::string token_to_string(token_type input);
 };
 
 
