@@ -13,4 +13,6 @@ add_executable(c__compilleron_26 main.cpp
         src/tokens/check_types.h
         src/tokens/cheker.cpp
         src/tokens/cheker.cpp
+        src/err/err.cpp
+        src/err/err.h
 )
