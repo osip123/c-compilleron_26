@@ -3,14 +3,11 @@
 //
 
 #include "token.h"
-#include "./token_types.cpp"
+#include "./token_types.h"
 
 #include "cheker.cpp"
 
-//#include "check_types.h"
-
 #include <string>
-#include <iostream>
 
 token::token(const std::string &lexeme) {
     this->lexeme = lexeme;
@@ -207,6 +204,3 @@ token_type token::which_token_type(const std::string &lexeme) {
 
     return token_type::IDENTIFIER;
 }
-
-
-

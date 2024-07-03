@@ -5,7 +5,7 @@
 #ifndef C__COMPILLERON_26_TOKEN_H
 #define C__COMPILLERON_26_TOKEN_H
 
-#include "./token_types.cpp"
+#include "./token_types.h"
 #include "converter/token_to_str.h"
 //#include "check_types.h"
 

@@ -6,7 +6,7 @@
 #define C__COMPILLERON_26_TOKEN_TO_STR_H
 
 #include <string>
-#include "../token_types.cpp"
+#include "../token_types.h"
 
 class token_to_str {
 public:

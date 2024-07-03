@@ -61,12 +61,6 @@ build CMakeFiles/c__compilleron_26.dir/src/tokens/token.cpp.obj: CXX_COMPILER__c
   OBJECT_DIR = CMakeFiles\c__compilleron_26.dir
   OBJECT_FILE_DIR = CMakeFiles\c__compilleron_26.dir\src\tokens
 
-build CMakeFiles/c__compilleron_26.dir/src/tokens/token_types.cpp.obj: CXX_COMPILER__c__compilleron_26_unscanned_Debug C$:/Users/endoc/CLionProjects/c++compilleron_26/src/tokens/token_types.cpp || cmake_object_order_depends_target_c__compilleron_26
-  DEP_FILE = CMakeFiles\c__compilleron_26.dir\src\tokens\token_types.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\c__compilleron_26.dir
-  OBJECT_FILE_DIR = CMakeFiles\c__compilleron_26.dir\src\tokens
-
 build CMakeFiles/c__compilleron_26.dir/src/tokens/check_types.cpp.obj: CXX_COMPILER__c__compilleron_26_unscanned_Debug C$:/Users/endoc/CLionProjects/c++compilleron_26/src/tokens/check_types.cpp || cmake_object_order_depends_target_c__compilleron_26
   DEP_FILE = CMakeFiles\c__compilleron_26.dir\src\tokens\check_types.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
@@ -99,7 +93,7 @@ build CMakeFiles/c__compilleron_26.dir/src/tokens/converter/token_to_str.cpp.obj
 #############################################
 # Link the executable c__compilleron_26.exe
 
-build c__compilleron_26.exe: CXX_EXECUTABLE_LINKER__c__compilleron_26_Debug CMakeFiles/c__compilleron_26.dir/main.cpp.obj CMakeFiles/c__compilleron_26.dir/src/tokens/token.cpp.obj CMakeFiles/c__compilleron_26.dir/src/tokens/token_types.cpp.obj CMakeFiles/c__compilleron_26.dir/src/tokens/check_types.cpp.obj CMakeFiles/c__compilleron_26.dir/src/tokens/cheker.cpp.obj CMakeFiles/c__compilleron_26.dir/src/err/err.cpp.obj CMakeFiles/c__compilleron_26.dir/src/tokens/converter/token_to_str.cpp.obj
+build c__compilleron_26.exe: CXX_EXECUTABLE_LINKER__c__compilleron_26_Debug CMakeFiles/c__compilleron_26.dir/main.cpp.obj CMakeFiles/c__compilleron_26.dir/src/tokens/token.cpp.obj CMakeFiles/c__compilleron_26.dir/src/tokens/check_types.cpp.obj CMakeFiles/c__compilleron_26.dir/src/tokens/cheker.cpp.obj CMakeFiles/c__compilleron_26.dir/src/err/err.cpp.obj CMakeFiles/c__compilleron_26.dir/src/tokens/converter/token_to_str.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\c__compilleron_26.dir
