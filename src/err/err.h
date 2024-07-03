@@ -5,9 +5,11 @@
 #ifndef C__COMPILLERON_26_ERR_H
 #define C__COMPILLERON_26_ERR_H
 
+#include <string>
 
 class err {
-
+public:
+    std::string lpar_error();
 };
 
 

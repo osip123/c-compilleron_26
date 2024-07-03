@@ -6,6 +6,7 @@
 #include "./token_types.h"
 
 #include "cheker.cpp"
+#include "../err/err.h"
 
 #include <string>
 
@@ -105,6 +106,10 @@ token_type token::which_token_type(const std::string &lexeme) {
     if (lexeme == "}")
         return token_type::RBRA;
     if (lexeme == "(")
+        lpar_counter ++;
+    if (lpar_counter > 256){
+        std::cout << err_hendle.lpar_error() << std::endl;
+    }
         return token_type::LPAR;
     if (lexeme == ")")
         return token_type::RPAR;
