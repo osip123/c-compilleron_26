@@ -17,4 +17,8 @@ add_executable(c__compilleron_26 main.cpp
         src/err/err.h
         src/tokens/converter/token_to_str.cpp
         src/tokens/converter/token_to_str.h
+        src/parser/parser.cpp
+        src/parser/parser.h
+        src/parser/parser.h
+        src/parser/parser.h
 )

@@ -1,9 +1,7 @@
 # ninja log v5
 18	81	7416964522228155	CMakeFiles/c__compilleron_26.dir/src/tokens/token_types.cpp.obj	8ee250d8a4bb56f5
-53	754	7416565643164607	CMakeFiles/c__compilleron_26.dir/src/err/err.cpp.obj	f0c3813344019e19
+15	488	7416973464870287	CMakeFiles/c__compilleron_26.dir/src/err/err.cpp.obj	f0c3813344019e19
 36	1613	7416565652644469	CMakeFiles/c__compilleron_26.dir/src/tokens/cheker.cpp.obj	278899f864b06828
 5	1631	7416565652829318	CMakeFiles/c__compilleron_26.dir/main.cpp.obj	44a09cd5894c1d75
 27	1662	7416565653116368	CMakeFiles/c__compilleron_26.dir/src/tokens/check_types.cpp.obj	ac45cb098cfdb11f
-23	367	7416964525092849	CMakeFiles/c__compilleron_26.dir/src/tokens/converter/token_to_str.cpp.obj	5a4275886faa7333
 35	908	7416966304758692	CMakeFiles/c__compilleron_26.dir/src/tokens/converter/token_to_str.cpp.obj	5a4275886faa7333
-15	488	7416973464870287	CMakeFiles/c__compilleron_26.dir/src/err/err.cpp.obj	f0c3813344019e19
